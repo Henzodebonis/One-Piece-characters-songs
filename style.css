@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: url(/One_Piece_characters_songs/sea.jpg) no-repeat center center/cover;
+    font-family: 'New Tegomin', serif;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.btn{
+    background: rgb(114, 38, 8) ;
+    padding: 1.5rem 3rem;
+    border-radius: 7px;
+    margin: 1rem;
+    border: none;
+    color: #fff;
+    font-family: inherit;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn:hover{
+    background: brown;
+    opacity: 0.9;
+}
+
+.btn:active{
+    transform: scale(1.03)
+}
